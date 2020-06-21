@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.jzvd.JzvdStd
+        android:id="@+id/jzvVideoPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgCloseWebViewVideoPlayer"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_close" />
+
+    <LinearLayout
+        android:id="@+id/lnrVideoPlayerNoConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifVideoLoading"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/no_connection"
+            android:tint="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/b_yekan"
+            android:gravity="center_horizontal"
+            android:text="@string/VideoLoadingError" />
+
+        <Button
+            android:id="@+id/btnVideoPlayerTryConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_selector"
+            android:fontFamily="@font/b_yekan"
+            android:text="تلاش کن"
+            android:textColor="@color/colorWhiteTextColor"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

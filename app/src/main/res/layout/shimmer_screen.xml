@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:id="@+id/videoPosterShimmer"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:background="@color/colorShimmer"
+            android:layout_centerVertical="true"/>
+
+        <View
+            android:id="@+id/videoTitleShimmer"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:background="@color/colorShimmer" />
+
+        <View
+            android:id="@+id/videoViewCountShimmer"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/videoTitleShimmer"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorShimmer" />
+        <TextView
+            android:id="@+id/videoPublishDateShimmer"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/videoTitleShimmer"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_toStartOf="@id/videoViewCountShimmer"
+            android:background="@color/colorShimmer"
+            />
+
+        <TextView
+            android:id="@+id/videoDurationShimmer"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/videoPublishDateShimmer"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorShimmer"/>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

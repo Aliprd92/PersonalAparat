@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ea1e5d</color>
+    <color name="colorPrimaryDark">#ca1950</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorCoverImageTint">#CC34495e</color>
+    <color name="colorWhiteTextColor">#ffffff</color>
+    <color name="colorChannelDescriptionBackground">#ffffff</color>
+    <color name="colorShimmer">#77ea1e5d</color>
+</resources>

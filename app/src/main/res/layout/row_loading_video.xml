@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progressBarLoading"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:indeterminate="true"
+        app:mpb_indeterminateTint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnRetryRow"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@id/progressBarLoading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/b_yekan"
+        android:gravity="center"
+        android:text="تلاش کن"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhiteTextColor"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

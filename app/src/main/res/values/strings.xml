@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">آپارات شخصی</string>
+    <string name="noConnection">از اتصال اینترنت خود مطمئن شوید و مجددا تلاش کنید</string>
+    <string name="VideoLoadingError">خطایی رخ داد ، مجددا تلاش کنید</string>
+
+
+</resources>
